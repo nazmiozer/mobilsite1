@@ -1,0 +1,89 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web Uygulaması</title>
+<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script src="/phonegap.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Sayfa Bir</h1>
+	</div>
+	<div data-role="content" data-theme="b">	
+		<ul data-role="listview">
+			<li><a href="#page2">Sayfa İki</a></li>
+            <li><a href="#page3">Sayfa Üç</a></li>
+			<li><a href="#page4">Sayfa Dört</a></li>
+		</ul>
+		<div class="ui-grid-a">
+		  <div class="ui-block-a">Blok 1,1</div>
+		  <div class="ui-block-b">Blok 1,2</div>
+	  </div>
+		<div data-role="fieldcontain">
+		  <label for="slider">Değer:</label>
+		  <input type="range" name="slider" id="slider" value="0" min="0" max="100" />
+		  <a href="#" data-role="button">Düğme</a>
+		  <div data-role="fieldcontain">
+		    <fieldset data-role="controlgroup" data-type="horizontal">
+		      <input type="checkbox" name="checkbox1" id="checkbox1_0" class="custom" value="" />
+		      <label for="checkbox1_0">Seçenek</label>
+		      <input type="checkbox" name="checkbox1" id="checkbox1_1" class="custom" value="" />
+		      <label for="checkbox1_1">Seçenek</label>
+		      <input type="checkbox" name="checkbox1" id="checkbox1_2" class="custom" value="" />
+		      <label for="checkbox1_2">Seçenek</label>
+	        </fieldset>
+	      </div>
+          
+      </div>		
+        
+        
+	</div>
+	<div data-role="footer" data-theme="e">
+		<h4>Sayfa Altbilgisi</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>Sayfa İki</h1>
+	</div>
+	<div data-role="content">	
+		İçerik		
+	</div>
+	<div data-role="footer">
+		<h4>Sayfa Altbilgisi</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>Sayfa Üç</h1>
+	</div>
+	<div data-role="content">	
+		İçerik		
+	</div>
+	<div data-role="footer">
+		<h4>Sayfa Altbilgisi</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>Sayfa Dört</h1>
+	</div>
+	<div data-role="content">	
+		İçerik		
+	</div>
+	<div data-role="footer">
+		<h4>Sayfa Altbilgisi</h4>
+	</div>
+</div>
+
+</body>
+</html>
